@@ -26,12 +26,12 @@ var ATTACHMENT1 = '[ID]';
 var ATTACHMENT2 = '[ID]';
 var ATTACHMENT3 = '[ID]';
 
-var FORM_EMAIL = '[ID]'; // TODO: get ID via the 'test-function'
+var FORM_EMAIL = '[ID]'; // TODO: get ID via the `test` function
 
  //this section is for testing your script.
  function test() {
      //the ID is the same as before
-    var range = SpreadsheetApp.openById('[ID]').getSheetByName(SHEET_INDIVIDUALLY).getRange('a1');
+    var range = SpreadsheetApp.openById(SPREADSHEET).getSheetByName(SHEET_INDIVIDUALLY).getRange('a1');
     var values = {
         'E-Mail address': ['/* use your mail address */'],
 
