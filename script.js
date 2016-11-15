@@ -65,10 +65,10 @@ function onFormSubmit(e) {
         volunteerInfo.getAs(MimeType.PDF),
         labels.getAs(MimeType.PDF)];
 
-/*
- not needed when only one language!
 
- Send individual files
+// the following part is only needed when you want to use multiple languages or mails with different content based on answers!
+
+ // Send individual files
     if (transportation == INDIVIDUAL_CAR) {
     //Send have a car
     if (language == LANGUAGE_GERMAN) {
@@ -93,7 +93,6 @@ function onFormSubmit(e) {
     }
     }
     }
- */
 
     function sendEmail(email, subject, contentID, attachments) {
         var content = DocumentApp.openById(contentID)
@@ -142,5 +141,5 @@ function onFormSubmit(e) {
             Logger.log(title);
             Logger.log(id);
         }
-    }
+
 }
