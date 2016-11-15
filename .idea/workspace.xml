@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c6ee1c8-9db3-4e57-ade9-16a271cc189e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script.js" />
-    </list>
+    <list default="true" id="6c6ee1c8-9db3-4e57-ade9-16a271cc189e" name="Default" comment="" />
     <ignored path="GForm-autoreply.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -590,12 +587,12 @@
       <workItem from="1478965885228" duration="2562000" />
       <workItem from="1479134778246" duration="376000" />
       <workItem from="1479213776240" duration="63000" />
-      <workItem from="1479213921259" duration="44000" />
+      <workItem from="1479213921259" duration="211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3045000" />
+    <option name="totallyTimeSpent" value="3212000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
